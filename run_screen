@@ -1,6 +1,6 @@
 #!/bin/bash
 screen -q -ls
-if [ $? -eq 9 ]; then
+if [ $? -ne 9 -a $? -ne 10 ]; then
           exec screen
 else
           exec screen -x
