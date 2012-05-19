@@ -1,0 +1,4 @@
+#!/bin/sh
+# https://gist.github.com/2730290
+echo $ $*
+$*
