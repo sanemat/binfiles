@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 set -e
 [[ ! -d $MAMI_DIR ]] && echo no-mami && exit 1
-cat >$MAMI_DIR/$(date "+%Y-%m-%d-%H-%M-%S").txt
+echo $MAMI_DIR/$(date "+%Y-%m-%d-%H-%M-%S").txt
